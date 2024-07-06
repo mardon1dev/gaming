@@ -1,0 +1,1 @@
+THis is a template for React, Vite, and Tailwind projects.

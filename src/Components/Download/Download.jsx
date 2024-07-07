@@ -27,4 +27,4 @@ const Download = () => {
   )
 }
 
-export default Download
+export default Download;

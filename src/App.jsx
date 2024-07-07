@@ -10,7 +10,6 @@ function App() {
   return (
     <GamingProvider>
       <Fragment>
-        <div className=''>
           <div className='container'>
             <div className='flex flex-row items-start min-h-[100vh] bg-[#191B1F] text-white'>
             <SideMenu/>
@@ -18,7 +17,6 @@ function App() {
             <Aside/>  
             </div>
           </div>  
-        </div>
       </Fragment>
     </GamingProvider>
   )

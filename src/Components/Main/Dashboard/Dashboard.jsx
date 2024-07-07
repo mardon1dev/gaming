@@ -23,27 +23,27 @@ const Dashboard = () => {
 
 
   return (
-    <div className="bg-[#20232B] dashboard pt-[50px] px-[35px] pb-[40px] max-w-[995px] w-full">
+    <div className="bg-[#20232B] dashboard pt-[50px] px-[35px] pb-[40px] max-w-[925px]">
       <div className='flex justify-between items-center'>
         <ul className="flex items-center justify-start gap-[38px]">
           <li>
-            <a className='text-[#fff] text-[17px] font-[500] leading-[22px]' href="#">Game</a>
+            <a className='text-[#fff] text-[17px] font-[500] leading-[22px] hover:text-[#fc8b40] duration-150' href="#">Game</a>
           </li>
           <li>
-            <a className='text-[#fff] text-[17px] font-[500] leading-[22px]' href="#">Live Score</a>
+            <a className='text-[#fff] text-[17px] font-[500] leading-[22px] hover:text-[#fc8b40] duration-150' href="#">Live Score</a>
           </li>
           <li>
-            <a className='text-[#fff] text-[17px] font-[500] leading-[22px]' href="#">Statistics</a>
+            <a className='text-[#fff] text-[17px] font-[500] leading-[22px] hover:text-[#fc8b40] duration-150' href="#">Statistics</a>
           </li>
           <li>
-            <a className='text-[#fff] text-[17px] font-[500] leading-[22px]' href="#">Analytics</a>
+            <a className='text-[#fff] text-[17px] font-[500] leading-[22px] hover:text-[#fc8b40] duration-150' href="#">Analytics</a>
           </li>
           <li>
-            <a className='text-[#fff] text-[17px] font-[500] leading-[22px]' href="#">Forecasts</a>
+            <a className='text-[#fff] text-[17px] font-[500] leading-[22px] hover:text-[#fc8b40] duration-150' href="#">Forecasts</a>
           </li>
         </ul>
-        <div>
-          <input type="search" placeholder='Search games' className='rounded-lg px-2 py-2 text-[14px] font-semibold text-[#202020] placeholder:text-[14px] placeholder:text-[#202020] outline-none'/>
+        <div className='max-w-[300px] w-full'>
+          <input type="search" placeholder='Search games' className='w-full rounded-lg px-3 py-2 text-[14px] font-semibold text-[#202020] placeholder:text-[14px] placeholder:text-[#202020] outline-none'/>
         </div>
       </div>
       <div className='my-[25px] dashboard-bg w-full rounded-lg relative'>

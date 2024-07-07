@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer components {
     .btn {}
 }
@@ -9,6 +11,43 @@
 
 }
 @layer base {
-    .title{
+    .menu-item:hover{
+        cursor:pointer;
+        box-shadow: 0px 6px 24px 0px #FC8B4033;
+        transition:all .3s ease
+    }
+
+
+    /* Dashboard */
+    .dashboard{
+        border-radius:40px 0 0 40px;
+    }
+    .dashboard-bg{
+        width:100%;
+        background-image: url("./assets/img.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center
+    }
+    .game{
+        transition:all .3s ease;
+    }
+    .game:hover{
+        transform:scale(.95);
+        transition:all .3s ease;
+    }
+
+    .game-text::before{
+        content: "";
+        position: absolute;
+        left:0;
+        bottom:3px;
+        width:12px;
+        height:12px;
+        background-image:url("./assets/rating.svg");
+        background-repeat:no-repeat;
+    }
+    .button:hover{
+        box-shadow: 0px 2px 8px 0px #CACDDB6B;
     }
 }
